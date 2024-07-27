@@ -5,6 +5,7 @@
     <ul>
         <li> Название: {{ book.fullname }} </li>
         <li> Добавлен: {{ book.added.strftime("%d-%m-%Y") }} </li>
+        <li> Статус прочтения: {{ book.is_read }} </li>
       </ul>
       <hr>
   {%- endfor %}

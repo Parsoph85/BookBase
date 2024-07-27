@@ -8,6 +8,18 @@
           <a href="{{ url_for('all_books_genre', genre_id=book.genre.id) }}">Жанр: {{ book.genre.name }}</a>
         </li>
         <li> Добавлен: {{ book.added.strftime("%d-%m-%Y") }} </li>
+        <li> <form name="markers" method="post">
+            <td>
+                {% if book.is_read == '1' %}
+                    <input class="form-check-input" type="checkbox" name="check_box" value = 'True' {% if book.is_read == 1 %}checked{% endif %}>
+                {% else %}
+                    <input class="form-check-input" type="checkbox" name="check_box" value = '0'>
+                {% endif %}
+            </td>
+            </form>
+
+          Статус прочтения: {{ book.is_read }}
+        </li>
       </ul>
       <hr>
     {%- endfor %}
