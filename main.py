@@ -7,16 +7,18 @@ app = Flask(__name__)
 app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///myBase.db'
 db.init_app(app)
 
+
+
 with app.app_context():
     db.drop_all()
     db.create_all()
 
     # Заполнение БД тестовыми данными
-    horror = Genre(name="Horror")
+    horror = Genre(name="Ужасы")
     db.session.add(horror)
-    adventure = Genre(name="Adventure")
+    adventure = Genre(name="Приключения")
     db.session.add(adventure)
-    biography = Genre(name="Biography")
+    biography = Genre(name="Биография")
     db.session.add(biography)
 
     shining = Books(fullname="Сияние. С.Кинг", genre=horror)
