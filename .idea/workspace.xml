@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ea685c-8825-49f6-8770-f57dba67d88b" name="Changes" comment="Create Project">
-      <change afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/all_books.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/all_books_genre.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
+    <list default="true" id="c1ea685c-8825-49f6-8770-f57dba67d88b" name="Changes" comment="Создание модулей. Примерные алгоритмы логики.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/all_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/all_books.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/all_books_genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/all_books_genre.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -54,8 +55,10 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "DefaultHtmlFileTemplate": "HTML File",
+    "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "#1 on master",
+    "last_opened_file_path": "C:/Users/ya/PycharmProjects/HW/BookBase",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -81,7 +84,9 @@
       <option name="presentableId" value="Default" />
       <updated>1722000613407</updated>
       <workItem from="1722000614780" duration="1120000" />
-      <workItem from="1722003557700" duration="944000" />
+      <workItem from="1722003557700" duration="1206000" />
+      <workItem from="1722085920614" duration="58000" />
+      <workItem from="1722086089776" duration="1760000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <option name="closed" value="true" />
@@ -99,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722001662257</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Создание модулей. Примерные алгоритмы логики.">
+      <option name="closed" value="true" />
+      <created>1722015172737</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1722015172737</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -118,6 +131,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Create Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Create Project" />
+    <MESSAGE value="Создание модулей. Примерные алгоритмы логики." />
+    <option name="LAST_COMMIT_MESSAGE" value="Создание модулей. Примерные алгоритмы логики." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/BookBase$main.coverage" NAME="main Coverage Results" MODIFIED="1722087633157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

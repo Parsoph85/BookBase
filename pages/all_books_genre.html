@@ -1,10 +1,10 @@
 {% extends "layout.html" %}
 {% block body %}
-  <h2>Сотрудники отдела {{ department_name }}</h2>
-  {%- for employee in employees %}
+  <h2>Книги жанра {{ genre_name }}</h2>
+  {%- for book in books %}
     <ul>
-        <li> Имя: {{ employee.fullname }} </li>
-        <li> Добавлен: {{ employee.added.strftime("%d-%m-%Y") }} </li>
+        <li> Название: {{ book.fullname }} </li>
+        <li> Добавлен: {{ book.added.strftime("%d-%m-%Y") }} </li>
       </ul>
       <hr>
   {%- endfor %}

@@ -1,12 +1,10 @@
-import os
-
 from flask import Flask
 from flask import render_template
 
-from database import db, Employee, Department
+from database import db, Books, Genre
 
 app = Flask(__name__)
-app.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("SQLALCHEMY_DATABASE_URI")
+app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///myBase.db'
 db.init_app(app)
 
 
@@ -14,35 +12,39 @@ with app.app_context():
     db.drop_all()
     db.create_all()
 
-    # fill DB with testing data(fixtures)
-    engineering = Department(name="Разработка")
-    db.session.add(engineering)
-    hr = Department(name="Рекрутинг")
-    db.session.add(hr)
+    # Заполнение БД тестовыми данными
+    horror = Genre(name="Horror")
+    db.session.add(horror)
+    adventure = Genre(name="Adventure")
+    db.session.add(adventure)
+    biography = Genre(name="Biography")
+    db.session.add(biography)
 
-    alex = Employee(fullname="Александр Иванов", department=engineering)
-    db.session.add(alex)
-    daria = Employee(fullname="Дарья Петрова", department=engineering)
-    db.session.add(daria)
-    petr = Employee(fullname="Петр Сидоров", department=hr)
-    db.session.add(petr)
+    shining = Books(fullname="Сияние. С.Кинг", genre=horror)
+    db.session.add(shining)
+    ljie = Books(fullname="20000 льё под водой. Ж.Верн", genre=adventure)
+    db.session.add(ljie)
+    it = Books(fullname="Оно. С.Кинг", genre=horror)
+    db.session.add(it)
+    autobio = Books(fullname="Автобиография. А. Кристи", genre=biography)
+    db.session.add(autobio)
 
     db.session.commit()
 
 
 @app.route("/")
-def all_employees():
-    employees = Employee.query.all()
-    return render_template("all_employees.html", employees=employees)
+def all_books():
+    books = Books.query.all()
+    return render_template("all_books.html", books=books)
 
 
-@app.route("/department/<int:department_id>")
-def employees_by_department(department_id):
-    department = Department.query.get_or_404(department_id)
+@app.route("/genre/<int:genre_id>")
+def all_books_genre(genre_id):
+    genre = Genre.query.get_or_404(genre_id)
     return render_template(
-        "employees_by_department.html",
-        department_name=department.name,
-        employees=department.employees,
+        "all_books_genre.html",
+        genre_name=genre.name,
+        books=genre.books,
     )
 
 
