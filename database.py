@@ -20,6 +20,6 @@ class Books(db.Model):
 class Genre(db.Model):
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
-    employees = relationship(
-        "Book", back_populates="genre"
+    books = relationship(
+        "Books", back_populates="genre"
     )
