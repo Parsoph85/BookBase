@@ -6,6 +6,7 @@ db = SQLAlchemy()
 
 class Books(db.Model):
     """ Описание модели книги"""
+
     id = db.Column(db.Integer, primary_key=True)
     fullname = db.Column(db.String, nullable=True)
     genre_id = db.Column(db.Integer, db.ForeignKey("genre.id", ondelete='SET NULL'))
@@ -17,6 +18,7 @@ class Books(db.Model):
 
 class Genre(db.Model):
     """ Описание модели жанра"""
+
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
     books = relationship(
