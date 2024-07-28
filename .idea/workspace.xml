@@ -4,12 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ea685c-8825-49f6-8770-f57dba67d88b" name="Changes" comment="RКорректировка шаблонов, Небольшие доработки кода.">
+    <list default="true" id="c1ea685c-8825-49f6-8770-f57dba67d88b" name="Changes" comment="Финальная корректировка.">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/instance/myBase.db" beforeDir="false" afterPath="$PROJECT_DIR$/instance/myBase.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/all_books.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_books.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/templates/all_books_genre.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/all_books_genre.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -102,6 +102,9 @@
       <workItem from="1722085920614" duration="58000" />
       <workItem from="1722086089776" duration="1961000" />
       <workItem from="1722088919677" duration="10194000" />
+      <workItem from="1722102807057" duration="683000" />
+      <workItem from="1722144599413" duration="29000" />
+      <workItem from="1722153738216" duration="537000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <option name="closed" value="true" />
@@ -151,7 +154,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722092368469</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Финальная корректировка.">
+      <option name="closed" value="true" />
+      <created>1722103416265</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1722103416265</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -173,10 +184,11 @@
     <MESSAGE value="Создание модулей. Примерные алгоритмы логики." />
     <MESSAGE value="Корректировка названий. Нужно исправить ошибку БД" />
     <MESSAGE value="RКорректировка шаблонов, Небольшие доработки кода." />
-    <option name="LAST_COMMIT_MESSAGE" value="RКорректировка шаблонов, Небольшие доработки кода." />
+    <MESSAGE value="Финальная корректировка." />
+    <option name="LAST_COMMIT_MESSAGE" value="Финальная корректировка." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BookBase$database.coverage" NAME="database Coverage Results" MODIFIED="1722091209359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BookBase$main.coverage" NAME="main Coverage Results" MODIFIED="1722102709322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BookBase$main.coverage" NAME="main Coverage Results" MODIFIED="1722102911866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
