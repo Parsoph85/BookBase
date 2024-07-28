@@ -8,15 +8,12 @@ app.config["SQLALCHEMY_DATABASE_URI"] = 'sqlite:///myBase.db'
 db.init_app(app)
 
 
-
-
 def input_test_data():
     """ Заполнение БД тестовыми данными. Сначала дропается вся база, потом создается новая"""
 
     with app.app_context():
         db.drop_all()
         db.create_all()
-
 
         horror = Genre(name="Ужасы")
         db.session.add(horror)

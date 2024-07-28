@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1ea685c-8825-49f6-8770-f57dba67d88b" name="Changes" comment="Финальная корректировка.">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database.py" beforeDir="false" afterPath="$PROJECT_DIR$/database.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/instance/myBase.db" beforeDir="false" afterPath="$PROJECT_DIR$/instance/myBase.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-    </list>
+    <list default="true" id="c1ea685c-8825-49f6-8770-f57dba67d88b" name="Changes" comment="Корректировка замечаний." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,7 +31,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -70,7 +63,6 @@
     "Python.database.executor": "Run",
     "Python.main.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "#1 on master",
     "last_opened_file_path": "C:/Users/ya/PycharmProjects/HW/BookBase",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
@@ -104,7 +96,7 @@
       <workItem from="1722088919677" duration="10194000" />
       <workItem from="1722102807057" duration="683000" />
       <workItem from="1722144599413" duration="29000" />
-      <workItem from="1722153738216" duration="537000" />
+      <workItem from="1722153738216" duration="797000" />
     </task>
     <task id="LOCAL-00001" summary="Create Project">
       <option name="closed" value="true" />
@@ -162,7 +154,23 @@
       <option name="project" value="LOCAL" />
       <updated>1722103416265</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Финальная корректировка.">
+      <option name="closed" value="true" />
+      <created>1722154376455</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1722154376455</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Корректировка замечаний.">
+      <option name="closed" value="true" />
+      <created>1722154423463</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1722154423463</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -185,10 +193,11 @@
     <MESSAGE value="Корректировка названий. Нужно исправить ошибку БД" />
     <MESSAGE value="RКорректировка шаблонов, Небольшие доработки кода." />
     <MESSAGE value="Финальная корректировка." />
-    <option name="LAST_COMMIT_MESSAGE" value="Финальная корректировка." />
+    <MESSAGE value="Корректировка замечаний." />
+    <option name="LAST_COMMIT_MESSAGE" value="Корректировка замечаний." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/BookBase$database.coverage" NAME="database Coverage Results" MODIFIED="1722091209359" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/BookBase$main.coverage" NAME="main Coverage Results" MODIFIED="1722102911866" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/BookBase$main.coverage" NAME="main Coverage Results" MODIFIED="1722154279077" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

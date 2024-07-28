@@ -5,7 +5,7 @@ db = SQLAlchemy()
 
 
 class Books(db.Model):
-    """ Описание модели книги"""
+    """ Описание модели книги в БД"""
 
     id = db.Column(db.Integer, primary_key=True)
     fullname = db.Column(db.String, nullable=True)
@@ -17,7 +17,7 @@ class Books(db.Model):
 
 
 class Genre(db.Model):
-    """ Описание модели жанра"""
+    """ Описание модели жанра в БД"""
 
     id = db.Column(db.Integer, primary_key=True)
     name = db.Column(db.String)
